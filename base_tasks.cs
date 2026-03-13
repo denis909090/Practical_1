@@ -3,7 +3,7 @@ namespace project
 {
      class Program
     {
-        static void Main(string[] args)
+        static void Task1(string[] args)
         {   
             Console.WriteLine("Гирман Денис");
             /* Task 2
