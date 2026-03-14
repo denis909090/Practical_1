@@ -36,9 +36,26 @@ namespace pr2
             //     Console.WriteLine("Друге число не може бути нулем");
             // }
             // Task 5
-            // Написати програму для знаходження і виведення на екран середнього арифметичного
-            // трьох заданих чисел. Числа вводяться користувачем з клавіатури під час виконання
-            // програми.
+            // Console.WriteLine("Скільки чисел хочете ввести?");
+            // int num_count = int.Parse(Console.ReadLine() ?? "0");
+            // double sum = 0;
+
+            // for (int i = 1; i <= num_count; i++){
+            //     Console.WriteLine($"Введіть число {i}:");
+            //     int n = int.Parse(Console.ReadLine() ?? "0");
+            //     sum += n;
+            // } 
+            // Console.WriteLine($"Середнє арифметичне: {sum / num_count}");
+            // Task 6
+            // Console.WriteLine("Введіть ваш зріст в см:");
+            // double height = double.Parse(Console.ReadLine() ?? "0");
+            // Console.WriteLine($"Ваш зріст: {height} см");
+            // Console.WriteLine($"Ваш оптимальна вага: {height - 100} кг");
+            // Task 7
+            // Console.WriteLine("Введіть радіус кола:");
+            // double radius = double.Parse(Console.ReadLine() ?? "0");
+            // Console.WriteLine($"Довжина кола: {radius * 2}pi");
+            // Console.WriteLine($"Площа кола: {Math.Pow(radius, 2)}pi");
         }
     }
 }
