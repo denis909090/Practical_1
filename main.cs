@@ -1,7 +1,8 @@
 ﻿using System;
 using Project.lab_1;
-using Project.pract_1;
-using Project.pract_2;
+
+// using Project.pract_1;
+// using Project.pract_2;
 
 namespace Project
 {
@@ -22,7 +23,9 @@ namespace Project
             // individual_tasks.task_5();
             // individual_tasks.task_6();
             // individual_tasks.task_7();
-            trainee_task.elem();
+            // trainee_task.elem();
+
+            lab_tasks.task_2();
         }
     }
 }
