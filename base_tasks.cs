@@ -2,7 +2,7 @@ using System;
 
 namespace Project
 {
-    class individual_tasks
+    class base_tasks
     {
         public static void task_1()
         {
@@ -57,26 +57,10 @@ namespace Project
             for (int i = 1; i <= num_count; i++)
             {
                 Console.WriteLine($"Введіть число {i}:");
-                int n = int.Parse(Console.ReadLine() ?? "0");
-                sum += n;
+                double num = double.Parse(Console.ReadLine() ?? "0");
+                sum += num;
             }
-            Console.WriteLine($"Середнє арифметичне: {sum / num_count}");
-        }
-
-        public static void task_6()
-        {
-            Console.WriteLine("Введіть ваш зріст в см:");
-            double height = double.Parse(Console.ReadLine() ?? "0");
-            Console.WriteLine($"Ваш зріст: {height} см");
-            Console.WriteLine($"Ваш оптимальна вага: {height - 100} кг");
-        }
-
-        public static void task_7()
-        {
-            Console.WriteLine("Введіть радіус кола:");
-            double radius = double.Parse(Console.ReadLine() ?? "0");
-            Console.WriteLine($"Довжина кола: {radius * 2 * Math.PI}");
-            Console.WriteLine($"Площа кола: {Math.Pow(radius, 2) * Math.PI}");
+            Console.WriteLine($"Сума: {sum}");
         }
     }
 }
