@@ -7,7 +7,7 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            BaseTasks_2.task_4();
+            higher_dif_tasks.task_6();
             // BaseTasks_2.task_4();
         }
     }
