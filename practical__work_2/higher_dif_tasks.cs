@@ -1,4 +1,6 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
+using System.Transactions;
 
 namespace Project
 {
@@ -30,10 +32,23 @@ namespace Project
             {
                 Console.WriteLine("Трикутник з такими сторонами не існує.");
             }
-        }*/ 
-        public static void task_7()
+        }*/
+        public static void task_8()
         {
-            
+            Console.WriteLine("Гирман Денис");
+            int road = 109;
+            Console.WriteLine("Введіть кількість годин: ");
+            int hours = int.Parse(Console.ReadLine() ?? string.Empty);
+            Console.WriteLine("Введіть швидкість мотоцикліста: ");
+            int speed = int.Parse(Console.ReadLine() ?? string.Empty);
+            int result = (speed * hours) % road;
+
+            if (result < 0)
+            {
+                result += 109;
+            }
+
+            Console.WriteLine(result);
         }
     }
 }
