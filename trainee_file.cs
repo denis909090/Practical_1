@@ -6,7 +6,7 @@ namespace Project
     {
         public static void elem()
         {
-            Console.WriteLine(Console.ReadKey());
+            Console.WriteLine("Гирман Денис");
         }
     }
 }
